@@ -104,9 +104,11 @@ img {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 
-    transition-property: all;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* transition-property: all;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .site-nav .link:hover,
@@ -133,15 +135,21 @@ img {
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
+    align-items: center;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    
     color: var(--title-text-color);
-    align-items: center;
-    transition-property: all;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    /* transition-property: all;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /*  */
@@ -173,11 +181,14 @@ img {
     width: 16px;
     height: 12px;
     margin-right: 10px;
+
     fill: var(--title-text-color); 
 
-    transition-property: all;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    /* transition-property: all;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 
@@ -187,9 +198,11 @@ img {
     margin-right: 10px;
     fill:var(--title-text-color);
 
-    transition-property: all;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* transition-property: all;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 
@@ -242,9 +255,11 @@ img {
     cursor: pointer;
     background-color: var(--accent-color);
 
-    transition-property: background-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* transition-property: background-color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .button:hover,
@@ -266,8 +281,6 @@ img {
 
     border-radius: 4px;
     border: 0;
-
-    
 }
 
 /* Фон */
@@ -286,17 +299,17 @@ img {
 /* Section  */
 /* Ховає заголовок h2 "Наши особенности" */
 .visually-hidden {
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-        border: 0;
-        padding: 0;
-        clip: rect(0 0 0 0);
-        clip-path: inset(50%);
-        margin: -1px;
-    }
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 
 .section-title {
     margin-bottom: 50px;
@@ -450,14 +463,14 @@ img {
 /* ===============
     Соцмережі команди 
    ===============*/
-   .social-network {
-       display: flex;
-       margin-top: 16px;
-       justify-content: center;
-     }
+.social-network {
+    display: flex;
+    margin-top: 16px;
+    justify-content: center;
+}
 
 
-   .social-network .link-team {
+.social-network .link-team {
     display: flex;
     width: 44px;
     height: 44px;
@@ -465,9 +478,11 @@ img {
     justify-content: center;
     border-radius: 50%;
 
-    transition-property: all;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* transition-property: all;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
    }
 
 .link-team:hover,
@@ -486,6 +501,8 @@ img {
     width: 20px;
     height: 20px;
     fill: var(--border);
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -512,9 +529,11 @@ img {
     border: 1px solid var(--border);
     fill: var(--border);
 
-    transition-property: all;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* transition-property: all;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 /* fill="#afb1b8" style="fill:var(--color3, #afb1b8)" */
 
@@ -562,9 +581,11 @@ img {
     display: inline-block;
     color: var(--color-footer);
 
-    transition-property: all;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* transition-property: all;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .list .info:hover,
@@ -615,9 +636,11 @@ img {
     border-radius: 50%;
     background-color: var(--color-social-network-bg);
 
-    transition-property: background-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* transition-property: background-color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .item-soc-foot {
@@ -660,9 +683,12 @@ img {
     border-radius: 4px;
     min-width: 73px;
 
-    transition-property: all;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition-property: all;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
  /* Кнопки в портфоліо */
@@ -674,9 +700,11 @@ img {
 .filter .button:focus {
     color: var(--spec-color);
     background-color: var(--accent-color);
+    
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
                 0px 1px 2px rgba(0, 0, 0, 0.08), 
                 0px 2px 2px rgba(0, 0, 0, 0.12);
+                
 }
 
 
@@ -716,12 +744,22 @@ img {
 }
 
 
-.project-item:hover .uppertext,
-.project-item:hover .project-thumb::before{
+.link-li:hover .uppertext,
+.link-li:hover .project-thumb::before,
+.link-li:focus .uppertext,
+.link-li:focus .project-thumb::before,
+.link-li:hover,
+.link-li:focus{
     opacity: 1;
     transform: translateY(0);
-    transition: transform  250ms cubic-bezier(0.4, 0, 0.2, 1); 
-} 
+    transition: transform  250ms cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+                
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+                 0px 4px 4px rgba(0, 0, 0, 0.06),
+                1px 4px 6px rgba(0, 0, 0, 0.16); 
+    
+    } 
 
 .project-thumb::before{
     content: '';
@@ -766,18 +804,24 @@ img {
 
 .link-li {
     display: inline-block;
-    transition-property: all;
+
+    /* transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+
+    /* transition-property: all;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
-.link-li:hover,
+/* .link-li:hover,
 .link-li:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
                 0px 4px 4px rgba(0, 0, 0, 0.06),
                 1px 4px 6px rgba(0, 0, 0, 0.16);
 
- }
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+ } */
 
 
 .list .titles {
@@ -801,9 +845,6 @@ img {
     ================== */
 
 .backdrop {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     position: fixed;
     top: 0;
     left: 0;
@@ -815,11 +856,12 @@ img {
 
     opacity: 1;
 
-    transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    transition-property: all; 
+    /* transition-property: all; 
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .backdrop.is-hidden {
